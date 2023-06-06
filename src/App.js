@@ -1,6 +1,11 @@
+import Greeting from "./components/Greeting";
+
 function App() {
   return (
-    <p>Hello World</p>
+    <main>
+      <p>Hello from App.js</p>
+      <Greeting />
+    </main>
   );
 }
 
